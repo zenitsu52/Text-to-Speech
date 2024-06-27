@@ -1,11 +1,11 @@
 @font-face {
     font-family: poppins medium;
-    src: url(./fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.ttf);
+    src: url(/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.ttf);
 }
 
 @font-face {
     font-family: poppins normal;
-    src: url(./fonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.ttf);
+    src: url(/fonts/pxiEyp8kv8JHgFVrJJfecg.ttf);
 }
 
 *{
@@ -112,15 +112,6 @@ nav{
     display: none;
 } */
 
-#converter{
-    height:100%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 #main h1{
     font-size: 4vw;
     /* margin-top: -10vw; */
@@ -171,6 +162,15 @@ textarea::placeholder{
 
 }
 
+#recogniser{
+        height:100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
 select{
     width:30vw;
     height:2.5vw;
@@ -183,6 +183,17 @@ select{
     outline: 0;
 }
 
+#recogniser select{
+    width:15vw;
+    height:2.5vw;
+    border-radius: 10px;
+    /* background: linear-gradient(#b6b6b6c4,#272727); */
+    /* background:#b6b6b6; */
+    background: #7bf2ecdf;
+    /* appearance: none; */
+    padding: 0 2vw;
+    outline: 0;
+}
 
 button{
     width:12vw;
